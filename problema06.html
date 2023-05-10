@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+    const nota1 = Number(prompt("Insira a sua primeira média"));
+    const nota2 = Number(prompt("Insira a sua segunda média"));
+    const nota3 = Number(prompt("Insira a sua terceira média"));
+
+    const mediaFinal = (nota1+nota2+nota3)/3;
+
+    if (mediaFinal < 4){
+        alert(`Reprovado!`);
+    }
+
+    else if (mediaFinal >= 4 && mediaFinal < 6) {
+        alert(`Exame!`);
+    }
+
+    else if (mediaFinal >= 6) {
+        alert(`Aprovado!`)
+    }
+
+    else {
+        alert(`Opção inválida!`);
+    }
+</script>

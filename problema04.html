@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+    const numeroUm = Number (prompt(`Informe um número de 0 a 100`));
+    const numeroDois = Number (prompt(`Informe um número de 0 a 100, que não seja igual ao primeiro`));
+    const numeroTres = Number (prompt(`Informe um número de 0 a 100, que não seja igual ao primeiro e nem ao segundo`));
+    
+    
+    if (numeroUm > numeroDois && numeroUm > numeroTres) {
+        alert(`O primeiro número é maior`);
+    }
+
+    else if (numeroDois > numeroUm && numeroDois > numeroTres) {
+        alert(`O segundo número é maior`);
+    }
+
+    else if (numeroTres > numeroUm && numeroTres > numeroDois){
+        alert(`O terceiro número é maior`);
+    }
+
+    else {
+        alert(`LEIA NOVAMENTE, EU DISSE PARA NÃO REPETIR O NÚMERO!`);
+    }
+</script>
