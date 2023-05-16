@@ -1,7 +1,8 @@
 <meta charset="UTF-8">
 <script>
     const idade = Number(prompt(`Informe o seu ano de nascimento`));
-    if (idade <= 2005) {
+    const dataAtual = new Date().getFullYear;
+    if (new Date().getFullYear() - idade >= 18) {
         alert(`Você já pode ser preso :)`);
     }
 
